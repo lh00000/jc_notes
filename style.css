@@ -81,7 +81,7 @@ color: #114538
 
 /* Subnav button */
 .subnav .subnavbtn {
-  font-size: 16px;
+  font-size: 36px;
   border: none;
   outline: none;
   color: white;
@@ -93,14 +93,14 @@ color: #114538
 
 /* Add a red background color to navigation links on hover */
 .navbar a:hover, .subnav:hover .subnavbtn {
-  background-color: red;
+  background-color: light-green;
 }
 
 /* Style the subnav content - positioned absolute */
 .subnav-content {
   display: none;
-  position: absolute;
-  background-color: red;
+  position: relative;
+  background-color: green;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
