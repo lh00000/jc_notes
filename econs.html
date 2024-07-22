@@ -1,0 +1,86 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<title>Economics</title>
+	<meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+
+      rel="stylesheet"
+
+    />
+
+    <link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+	<script>
+			/* Set the width of the side navigation to 250px */
+		function openNav() {
+		  document.getElementById("mySidenav").style.width = "250px";
+		}
+
+		/* Set the width of the side navigation to 0 */
+		function closeNav() {
+		  document.getElementById("mySidenav").style.width = "0";
+		}
+		
+		var acc = document.getElementsByClassName("accordion");
+		var i;
+
+		for (i = 0; i < acc.length; i++) {
+		  acc[i].addEventListener("click", function() {
+			this.classList.toggle("active");
+			var panel = this.nextElementSibling;
+			if (panel.style.maxHeight) {
+			  panel.style.maxHeight = null;
+			} else {
+			  panel.style.maxHeight = panel.scrollHeight + "px";
+			}
+		  });
+		}
+	</script>
+	<div class="topnav">
+	  <a onclick="openNav()">Topics</a>
+	  <a href="study.html">Home</a>
+	  <a href="physics.html">Phy</a>
+	  <a href="comp.html">Comp</a>
+	  <a href="math.html">Math</a>
+	  <a class="active" href="econs.html">Econs</a>
+	</div>
+	<div id="mySidenav" class="sidenav">
+	  <a href="#1">Measurements</a>
+	  <a href="#2">Kinematics</a>
+	  <a href="#3">Dynamics</a>
+	  <a href="#4">Forces</a>
+	  <a href="#5">Dynamics</a>
+	  <a href="#6">Intro to Macro</a>
+	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	</div>
+	
+	<h2 id = "6">6. Introduction to Macroeconomics</h2>
+	<p>In this unit, we study how living standards are measured, with particular focus on using national income to measure and compare living standards over tiem and between countries. We will consider the limitations of doing so and examine whether there are viable alternatives to national income statistics for measuring and comparing living standards.</p>
+	<details>
+	<summary><b>Standard of Living</b></summary>
+	<p>Material well-being - stems from the <b>consumption of consumer goods and services</b><br>
+	Non-material well-being - refers to aspects of well-being that stems from the <b>intangibles</b> (e.g job satisfaction, amt of leisure time, state of environment...)</p>
+	</details>
+	<p contentEditable="true">Answer</p>
+	<button class="accordion">Concept of National Income</button>
+		<div class="panel">
+		  <p>National income - total income earned by a antion from producing the country's total final output over a given period of time<br>
+		  National product - value of the total final output of a country over a period of time<br>
+		  National expenditure - total spending on a country's total output over a period of time</p>
+		</div>
+	
+	
+	
+	
+	
+	
+
+	</body>
+</html>
