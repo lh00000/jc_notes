@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-	<title>Physics</title>
+	<title>Computing</title>
 	<meta charset="UTF-8" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -15,6 +15,17 @@
     />
 
     <link rel="stylesheet" href="style.css" />
+	<script>
+		/* Set the width of the side navigation to 250px */
+	function openNav() {
+	  document.getElementById("mySidenav").style.width = "250px";
+	}
+
+	/* Set the width of the side navigation to 0 */
+	function closeNav() {
+	  document.getElementById("mySidenav").style.width = "0";
+	}
+	</script>
 	</head>
 	<body>
 	<div class="topnav">
@@ -26,10 +37,23 @@
 	  <a href="econs.html">Econs</a>
 	</div>
 	<div id="mySidenav" class="sidenav">
-	  <a href="#1">Python</a>
-	  <a href="#2">Kinematics</a>
-	  <a href="#3">Dynamics</a>
-	  <a href="#4">Forces</a>
+	  <div class="subnav">
+	    <button class="subnavbtn">Theory<i class="fa fa-caret-down"></i></button>
+	    <div class="subnav-content">
+	      <a href="#1">Algorithmic Representation</a>
+	      <a href="#2">Fundamental Algorithms</a>
+	      <a href="#3">Data Structures</a>
+	    </div>
+	  </div>
+	  <div class="subnav">
+	    <button class="subnavbtn">Practical<i class="fa fa-caret-down"></i></button>
+	    <div class="subnav-content">
+	      <a href="#p1">Basic Python(1-6)</a>
+	      <a href="#p2">Web App/Dev</a>
+	      <a href="#p3">Recursion</a>
+	      <a href="#p4">Sorting, Search</a>
+	    </div>
+	  </div>
 	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 	</div>
 	</body>
