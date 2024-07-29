@@ -84,7 +84,7 @@ color: #114538
   font-size: 36px;
   border: none;
   outline: none;
-  color: white;
+  color: #818181;
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
@@ -100,7 +100,7 @@ color: #114538
 .subnav-content {
   display: none;
   position: relative;
-  background-color: green;
+  background-color: #114538;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -109,7 +109,7 @@ color: #114538
 /* Style the subnav links */
 .subnav-content a {
   float: none;
-  color: black;
+  color: #818181;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
